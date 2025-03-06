@@ -53,12 +53,13 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <29>;
             slow-release;
+            require-prior-idle-ms = <20>;
         };
 
         lshift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <20>;
-            slow-release;
+            require-prior-idle-ms = <20>;
         };
     };
 
