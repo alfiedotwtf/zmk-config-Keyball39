@@ -167,7 +167,7 @@ combos:
   k: {t: '1', h: toggle}
 - p: [28, 36]
   k: {t: '2', h: toggle}
-- p: [37, 16]
+- p: [16, 36]
   k: {t: '3', h: toggle}
 - p: [35, 32]
   k: $$mdi:backspace-reverse-outline$$
