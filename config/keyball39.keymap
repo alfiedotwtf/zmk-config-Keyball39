@@ -20,17 +20,17 @@
 
         layer0 {
             bindings = <&to 0>;
-            key-positions = <37 26>;
+            key-positions = <26 36>;
         };
 
         layer1 {
             bindings = <&to 1>;
-            key-positions = <37 27>;
+            key-positions = <27 36>;
         };
 
         layer2 {
             bindings = <&to 2>;
-            key-positions = <37 28>;
+            key-positions = <28 36>;
         };
 
         layer3 {
@@ -38,14 +38,9 @@
             key-positions = <37 16>;
         };
 
-        layer4 {
-            bindings = <&to 0>;
-            key-positions = <37 6 7 8>;
-        };
-
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <35 13>;
+            key-positions = <35 32>;
         };
     };
 
