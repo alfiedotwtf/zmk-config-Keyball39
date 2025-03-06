@@ -161,15 +161,13 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
 combos:
-- p: [37, 26]
+- p: [26, 36]
   k: {t: '0', h: toggle}
-- p: [37, 27]
+- p: [27, 36]
   k: {t: '1', h: toggle}
-- p: [37, 28]
+- p: [28, 36]
   k: {t: '2', h: toggle}
 - p: [37, 16]
   k: {t: '3', h: toggle}
-- p: [37, 6, 7, 8]
-  k: {t: '0', h: toggle}
-- p: [35, 13]
+- p: [35, 32]
   k: $$mdi:backspace-reverse-outline$$
