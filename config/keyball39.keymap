@@ -48,19 +48,6 @@
             bindings = <&kp DELETE>;
             key-positions = <35 13>;
         };
-
-        shift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <29>;
-            slow-release;
-            require-prior-idle-ms = <20>;
-        };
-
-        lshift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <20>;
-            require-prior-idle-ms = <20>;
-        };
     };
 
     keymap {
@@ -68,10 +55,10 @@
 
         layer_0 {
             bindings = <
-&kp SEMI   &kp COMMA  &kp DOT   &kp P    &kp Y                              &kp F      &kp G  &kp C  &kp R  &kp L
-&kp A      &kp O      &kp E     &kp U    &kp I                              &kp D      &kp H  &kp T  &kp N  &kp S
-&kp APOS   &kp Q      &kp J     &kp K    &kp X                              &kp B      &kp M  &kp W  &kp V  &kp Z
-&kp LCTRL  &kp LALT   &kp LGUI  &kp TAB  &kp SPACE  &kp BACKSPACE  &kp ESC  &kp ENTER                       &kp RSHFT
+&kp SEMI             &kp COMMA  &kp DOT   &kp P    &kp Y                              &kp F      &kp G  &kp C  &kp R  &kp L
+&kp A                &kp O      &kp E     &kp U    &kp I                              &kp D      &kp H  &kp T  &kp N  &kp S
+&mt LEFT_SHIFT APOS  &kp Q      &kp J     &kp K    &kp X                              &kp B      &kp M  &kp W  &kp V  &mt RIGHT_SHIFT Z
+&kp LCTRL            &kp LALT   &kp LGUI  &kp TAB  &kp SPACE  &kp BACKSPACE  &kp ESC  &kp ENTER                       &kp MINUS
             >;
         };
 
